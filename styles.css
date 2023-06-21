@@ -6,11 +6,22 @@
     width: 325px;
 }
 
+.div-novidades{
+    width: 325px;
+}
+
 .texto-verde {
     color: #DAFF01;
 }
 
-#botao-lilas {
-    background-color: #9353FF;
-    color: white;
+.botao-lilas {
+    background-color: #9353FF !important;
+}
+
+@media(min-width: 768px) {
+
+    .div-novidades {
+        width: 696px;
+    }
+
 }
